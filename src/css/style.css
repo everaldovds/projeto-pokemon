@@ -7,10 +7,31 @@ body {
     background-image: url("../imagens/imagens/fundo-site.png");
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
 }
 
 .cabecalho {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
+    padding-top: 50px;
+}
+
+.cabecalho .titulo {
+    color: #f1ecff;
+}
+
+.cabecalho .pokebola {
+    width: 25px;
+    height: 25px;
+}
+
+.pokemon-slider {
+    display: flex;
+}
+
+.lista-pokemons {
+    width: 310px;
+    height: 520px;
 }
