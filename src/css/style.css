@@ -61,10 +61,8 @@ body {
 }
 
 .cartao {
-    
-    /* opacity: 0; */
+    opacity: 0;
     height: 100%;
-    /* height: auto; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -73,7 +71,6 @@ body {
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: opacity 0.3s ease-in-out;
-    opacity: 0;
 }
 
 .cartao.selecionado {
